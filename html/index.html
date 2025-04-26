@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayfa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/css/index.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">MackBear</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu-section">Menü</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery-section">Galeri</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-section">İletişim</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="hero-img">
+        <img src="/assets/img/hero-img.png" alt="kafe-hero-img">
+        <p>MackBear Coffee CO., kahve tutkusundan güç alan bir enerjiyle, misafirlerimizin beklentilerine odaklanarak
+            yüksek
+            kaliteli ve yenilikçi ürün ve hizmetler sunuyor. “Stay Wild” felsefemizle, doğal yaşamla misafirlerimiz
+            arasında
+            bir köprü kurarak, günlük rutinlerden uzaklaşmayı hedefliyoruz.
+        </p>
+    </div>
+    <hr>
+    <h2>Menü</h2>
+    <hr>
+
+    <div id="menu-section" class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card">
+                    <a href="coffe-espresso.html"><img src="/assets/img/espresso-coffe.jpg" class="card-img-top"
+                            alt="espresso-img"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Coffe & Espresso</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <a href="iced-coffe.html"><img src="/assets/img/iced-coffe.jpg" class="card-img-top"
+                            alt="iced-coffe-img"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">İced Coffe & Frappe</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <a href="special-hot-drinks.html"><img src="/assets/img/special-hot-drinks.jpg" class="card-img-top"
+                            alt="special-drinks-img"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Special Hot Drinks</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <a href="tea.html"><img src="/assets/img/tea.jpg" class="card-img-top" alt="cay-img"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Tea</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h2>Galeri</h2>
+    <hr>
+
+    <div id="gallery-section" class="container">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1000">
+                    <img src="/assets/img/galeri-1.jpg" class="d-block w-100" alt="galeri-resim-1">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="/assets/img/galeri-2.jpg" class="d-block w-100" alt="galeri-resim-2">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="/assets/img/galeri-3.jpg" class="d-block w-100" alt="galeri-resim-3">
+                </div>
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="/assets/img/galeri-4.jpg" class="d-block w-100" alt="galeri-resim-4">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="/assets/img/galeri-5.jpg" class="d-block w-100" alt="galeri-resim-5">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="/assets/img/galeri-6.jpg" class="d-block w-100" alt="galeri-resim-6">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <hr>
+    <h2>İletişim</h2>
+    <hr>
+
+    <div id="contact-section" class="container">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email adresi</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="designedbymehmetsonmez@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">İstek Şikayet ve Önerileriniz</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+    </div>
+</body>
+
+</html>
